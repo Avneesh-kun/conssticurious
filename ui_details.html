@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p style="font-size: 48px; font-family: 'poppins-bold', sans-serif !important;">hello heading</p>
+    <p style="font-size: 36px; font-family: 'poppins-bold', sans-serif !important;">hello title</p>
+    <p style="font-size: 20px; font-family: Arial, Helvetica, sans-serif;">hello body</p>
+</body>
+</html>
+
+
+
+
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to the Constitution of India Basics</h2>
+        <p>This website helps you learn the fundamentals of the Indian Constitution in simple language.</p>
+    </section>
+
+    <!-- Key Principles Section -->
+    <section id="principles">
+        <h2>Key Principles of the Indian Constitution</h2>
+        <div class="principle">
+            <h3>Preamble</h3>
+            <p>The Preamble is the introduction to the Constitution, stating the guiding principles of the nation.</p>
+        </div>
+        <div class="principle">
+            <h3>Fundamental Rights</h3>
+            <p>Fundamental Rights are the basic human rights guaranteed to all citizens of India.</p>
+        </div>
+        <div class="principle">
+            <h3>Directive Principles</h3>
+            <p>These are guidelines for the state to ensure social and economic welfare.</p>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz">
+        <h2>Test Your Knowledge</h2>
+
+        <!-- Question 1 -->
+        <div class="quiz-question">
+            <p>Q1. Who is known as the father of the Indian Constitution?</p>
+            <button onclick="checkAnswer('Dr. B.R. Ambedkar', 1)">Dr. B.R. Ambedkar</button>
+            <button onclick="checkAnswer('Mahatma Gandhi', 1)">Mahatma Gandhi</button>
+            <button onclick="checkAnswer('Jawaharlal Nehru', 1)">Jawaharlal Nehru</button>
+            <button onclick="checkAnswer('Rajendra Prasad', 1)">Rajendra Prasad</button>
+            <p id="feedback1"></p>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="quiz-question">
+            <p>Q2. Which part of the Constitution declares India a secular state?</p>
+            <button onclick="checkAnswer('Preamble', 2)">Preamble</button>
+            <button onclick="checkAnswer('Fundamental Rights', 2)">Fundamental Rights</button>
+            <button onclick="checkAnswer('Directive Principles', 2)">Directive Principles</button>
+            <button onclick="checkAnswer('Fundamental Duties', 2)">Fundamental Duties</button>
+            <p id="feedback2"></p>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="quiz-question">
+            <p>Q3. How many schedules are there in the Indian Constitution?</p>
+            <button onclick="checkAnswer('12', 3)">12</button>
+            <button onclick="checkAnswer('10', 3)">10</button>
+            <button onclick="checkAnswer('8', 3)">8</button>
+            <button onclick="checkAnswer('9', 3)">9</button>
+            <p id="feedback3"></p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
